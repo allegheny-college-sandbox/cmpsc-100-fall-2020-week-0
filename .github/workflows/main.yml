@@ -8,7 +8,6 @@ jobs:
   grade:
     runs-on: ubuntu-latest
     steps:
-    - if: always()
     - uses: gabrielfalcao/pyenv-action@v6
       with: 
         default: 3.6.3 
@@ -32,6 +31,7 @@ jobs:
         cd lab
         gradle grade
         cd ..
+        if: always()
       env:
        PIPENV_VENV_IN_PROJECT: 1
        PIPENV_IGNORE_VIRTUALENVS: 1
