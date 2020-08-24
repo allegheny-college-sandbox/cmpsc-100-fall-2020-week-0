@@ -4,12 +4,11 @@ on:
   push:
     branches: [ main ]
 
-continue-on-error: true
-
 jobs:
   grade:
     runs-on: ubuntu-latest
     steps:
+    - if: always()
     - uses: gabrielfalcao/pyenv-action@v6
       with: 
         default: 3.6.3 
