@@ -47,4 +47,4 @@ In 2020 a professor attempted to boggle their students' minds by sending them a 
 
 It is hidden somewhere in the `/mansion`, but it is up to _you_ to find and `claim` it.
 
-[Lab: _The Maltese Python_](worksheets/CMPSC%20100%20-%20Week%2000%20-%20Lab%20-%20The%20Maltese%20Python.ipynb)
+[Lab: _The Maltese Python_](lab/CMPSC%20100%20-%20Week%2000%20-%20Lab%20-%20The%20Maltese%20Python.ipynb)
