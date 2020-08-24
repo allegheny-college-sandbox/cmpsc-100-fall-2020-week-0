@@ -30,9 +30,9 @@ Media
 
 ### Worksheets and activities
 
-[Worksheet: Configuration](worksheet/CMPSC%20100%20-%20Week%2000%20-%20Worksheet%20-%20Configuration.ipynb)
-[Worksheet: Terminal commands](worksheet/CMPSC%20100%20-%20Week%2000%20-%20Worksheet%20-%20Terminal%20commands.ipynb)
-[Worksheet: Markdown](worksheet/CMPSC%20100%20-%20Week%2000%20-%20Worksheet%20-%20Markdown.ipynb)
+* [Worksheet: Configuration](worksheets/CMPSC%20100%20-%20Week%2000%20-%20Worksheet%20-%20Configuration.ipynb)
+* [Worksheet: Terminal commands](worksheets/CMPSC%20100%20-%20Week%2000%20-%20Worksheet%20-%20Terminal%20commands.ipynb)
+* [Worksheet: Markdown](worksheets/CMPSC%20100%20-%20Week%2000%20-%20Worksheet%20-%20Markdown.ipynb)
 
 ### Lab
 
@@ -47,6 +47,4 @@ In 2020 a professor attempted to boggle their students' minds by sending them a 
 
 It is hidden somewhere in the `/mansion`, but it is up to _you_ to find and `claim` it.
 
-```
-Lab
-```
+[Lab: _The Maltese Python_](worksheets/CMPSC%20100%20-%20Week%2000%20-%20Lab%20-%20The%20Maltese%20Python.ipynb)
