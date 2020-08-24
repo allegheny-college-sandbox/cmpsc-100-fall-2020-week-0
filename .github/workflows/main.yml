@@ -29,6 +29,7 @@ jobs:
         gradle grade
         cd ..
     - name: Grade lab
+      run: |
         cd lab
         gradle grade
       env:   
