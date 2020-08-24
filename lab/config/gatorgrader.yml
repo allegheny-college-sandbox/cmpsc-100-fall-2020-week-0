@@ -1,0 +1,16 @@
+---
+name: cmpsc-100-week-00
+break: true
+indent: 4
+---
+# --> check the source code for various characteristics
+# note that without an "--exact" the check is an "at least"
+
+worksheets:
+    worksheet.py:
+        ConfirmFileExists
+
+# --> check the number of commits beyond a threshold
+CountCommits --count 1
+
+# --> check that the program executes and produces 1 lines of output

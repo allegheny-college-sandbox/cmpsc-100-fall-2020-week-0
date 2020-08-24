@@ -25,7 +25,12 @@ jobs:
         # pipenv run flake8 src
         # pipenv run black --check src
         # pipenv run pylint src
+	cd worksheets
         gradle grade
+	cd ../
+	cd lab
+	gradle grade
+	cd ..
       env:
        PIPENV_VENV_IN_PROJECT: 1
        PIPENV_IGNORE_VIRTUALENVS: 1
