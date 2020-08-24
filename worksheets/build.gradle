@@ -70,5 +70,5 @@ task convert(type: Exec) {
   // commandLine "jupyter","nbconvert","--to","python","*.ipynb"
 }
 
-build.dependsOn convert
-grade.dependsOn convert
+//build.dependsOn convert
+//grade.dependsOn convert
