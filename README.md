@@ -30,7 +30,7 @@ Media
 
 ### Worksheets and activities
 
-[Worksheet: Configuration](worksheets/CMPSC 100 - Week 00 - Worksheet - Configuration.ipynb)
+[Worksheet: Configuration](CMPSC 100 - Week 00 - Worksheet - Configuration.ipynb)
 [Worksheet: Terminal commands](worksheets/CMPSC 100 - Week 00 - Worksheet - Terminal commands.ipynb)
 [Worksheet: Markdown](worksheets/CMPSC 100 - Week 00 - Worksheet - Markdown.ipynb)
 
