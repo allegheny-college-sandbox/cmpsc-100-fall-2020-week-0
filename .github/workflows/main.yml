@@ -28,10 +28,12 @@ jobs:
         cd worksheets
         gradle grade
         cd ..
+      if: always()
     - name: Grade lab
       run: |
         cd lab
         gradle grade
+      if: always()
       env:   
        PIPENV_VENV_IN_PROJECT: 1
        PIPENV_IGNORE_VIRTUALENVS: 1
