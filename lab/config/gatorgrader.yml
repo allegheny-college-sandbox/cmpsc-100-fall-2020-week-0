@@ -1,14 +1,13 @@
 ---
-name: cmpsc-100-week-00
+name: cmpsc-100-week-00-lab
 break: true
 indent: 4
 ---
 # --> check the source code for various characteristics
 # note that without an "--exact" the check is an "at least"
 
-worksheets:
-    worksheet.py:
-        ConfirmFileExists
+"CMPSC 100 - Week 00 - Lab - The Maltese Python.ipynb":
+    ConfirmFileExists
 
 # --> check the number of commits beyond a threshold
 CountCommits --count 1

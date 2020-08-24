@@ -1,16 +1,17 @@
 ---
-name: cmpsc-100-week-00
+name: cmpsc-100-week-00-worksheets
 break: true
 indent: 4
 ---
 # --> check the source code for various characteristics
 # note that without an "--exact" the check is an "at least"
 
-worksheets:
-    worksheet.py:
-        ConfirmFileExists
+"CMPSC 100 - Week 00 - Worksheet - Configuration.ipynb":
+    ConfirmFileExists
+"CMPSC 100 - Week 00 - Worksheet - Terminal commands.ipynb":
+    ConfirmFileExists
+"CMPSC 100 - Week 00 - Worksheet - Markdown.ipynb":
+    ConfirmFileExists
 
 # --> check the number of commits beyond a threshold
 CountCommits --count 1
-
-# --> check that the program executes and produces 1 lines of output
