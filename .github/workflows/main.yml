@@ -4,6 +4,8 @@ on:
   push:
     branches: [ main ]
 
+continue-on-error: true
+
 jobs:
   grade:
     runs-on: ubuntu-latest
