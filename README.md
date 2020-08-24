@@ -30,13 +30,15 @@ Media
 
 ### Worksheets and activities
 
-```
-Worksheets
-```
+[worksheets/CMPSC 100 - Week 00 - Worksheet - Configuration.ipynb](Worksheet: Configuration)
+[worksheets/CMPSC 100 - Week 00 - Worksheet - Terminal commands.ipynb](Worksheet: Terminal commands)
+[worksheets/CMPSC 100 - Week 00 - Worksheet - Markdown.ipynb](Worksheet: Markdown)
 
 ### Lab
 
 #### _The Maltese Python_
+
+![It's just a MacGuffin!](https://cs.allegheny.edu/sites/dluman/cmpsc100/cmpsc-100-maltese-python.png)
 
 > My way of learning is to heave a wild and unpredictable monkey-wrench into the machinery.
 > _The Maltese Falcon_, Dashiell Hammet
