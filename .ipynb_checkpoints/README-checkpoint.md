@@ -1,0 +1,48 @@
+# CMPSC 100: Fall 2020, Week 0
+
+## Table of contents
+
+* [Overview](#overview)
+* [Instructional materials](#instructional-materials)
+  * [Media](#media)
+  * [Worksheets and activities](#worksheets-and-activities)
+  * [Lab](#lab)
+
+## Overview
+
+This week, we explore setting up the tools, technologies, and platforms that will guide our work this semester. These include:
+
+* GitHub
+* JupyterLab
+* The "terminal"
+* SSH
+* GatorGrader
+
+Follow the links below to access instructional materials for the week. Each `*.ipynb` file is a Jupyter notebook which contains discussion, instruction, and activities -- some meant for use during class video sessions, others to be complete on your own.
+
+
+
+## Instructional materials
+
+### Media
+
+```
+Media
+```
+
+### Worksheets and activities
+
+```
+Worksheets
+```
+
+### Lab
+
+#### _The Maltese Python_
+
+> My way of learning is to heave a wild and unpredictable monkey-wrench into the machinery.
+> _The Maltese Falcon_, Dashiell Hammet
+
+```
+Lab
+```
