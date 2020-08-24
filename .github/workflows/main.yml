@@ -29,9 +29,8 @@ jobs:
         gradle grade
         cd ..
     - name: Grade lab
-      run:
         cd lab
         gradle grade
-      env:
+      env:   
        PIPENV_VENV_IN_PROJECT: 1
        PIPENV_IGNORE_VIRTUALENVS: 1
