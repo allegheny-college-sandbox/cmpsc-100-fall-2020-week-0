@@ -8,3 +8,5 @@ indent: 4
 
 CMPSC 100 - Week 00 - Lab - The Maltese Python.ipynb:
     ConfirmFileExists
+the_maltese_python!:
+    ConfirmFileExists
