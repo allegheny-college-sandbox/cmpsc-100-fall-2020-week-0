@@ -6,5 +6,4 @@ indent: 4
 # --> check the source code for various characteristics
 # note that without an "--exact" the check is an "at least"
 
-CMPSC 100 - Week 00 - Lab - The Maltese Python.ipynb:
-    ConfirmFileExists
+CountCommits --count 1

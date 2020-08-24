@@ -14,7 +14,7 @@ jobs:
     - uses: actions/checkout@v2
       with: 
         fetch-depth: '0'
-    - name: Grade worksheets
+    - name: Set up grading environment
       run: |
         pyenv global 3.6.3
         export PATH="/home/runner/.local/bin:$PATH"
@@ -25,6 +25,7 @@ jobs:
         # pipenv run flake8 src
         # pipenv run black --check src
         # pipenv run pylint src
+    - name: Grade worksheets
         cd worksheets
         gradle grade
         cd ..
@@ -32,6 +33,11 @@ jobs:
     - name: Grade lab
       run: |
         cd lab
+        gradle grade
+        cd ..
+      if: always()
+    - name: Grade repository
+      run: |
         gradle grade
       if: always()
       env:   
