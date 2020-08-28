@@ -1,6 +1,6 @@
 # CMPSC 100: Fall 2020, Week 0
 
-[![Status](https://github.com/allegheny-college-sandbox/cmpsc-100-fall-2020-week-00-configuration/workflows/grading/badge.svg)](https://github.com/allegheny-college-sandbox/cmpsc-100-fall-2020-week-00-configuration/actions)
+[![Status](https://github.com/allegheny-college-sandbox/cmpsc-100-fall-2020-week-00-configuration/workflows/GatorGrader/badge.svg)](https://github.com/allegheny-college-sandbox/cmpsc-100-fall-2020-week-00-configuration/actions)
 
 ## Table of contents
 
