@@ -11,3 +11,11 @@ indent: 4
     ConfirmFileExists
 3 - CMPSC 100 - Week 00 - Worksheet - Markdown.ipynb:
     ConfirmFileExists
+3 - CMPSC 100 - Week 00 - Worksheet - Markdown.md:
+    ConfirmFileExists
+    CountMarkdownTags --tag "heading" --count 3
+    CountMarkdownTags --tag "list" --count 1
+    CountMarkdownTags --tag "link" --count 1
+    CountMarkdownTags --tag "block_quote" --count 2
+    CountFileParagraphs --count 10
+    
