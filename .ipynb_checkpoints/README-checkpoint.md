@@ -20,13 +20,14 @@ For those who just want to get to work, consult the `Instructional Materials` se
   * [Lab](#lab)
 * [Setup](#Setup)
   * [The "terminal"](#The-"terminal")
-    * [ What is a "terminal"?](#What-is-a-"terminal"?)
+    * [What is a "terminal"?](#What-is-a-"terminal"?)
     * [Using our terminal](#Using-our-terminal)
-  * [GitHub: Part 1](#GitHub-Part-1)
-    * [Activity 1: Securing your GitHub account](#Activity-1:-Securing-your-GitHub-account)
+  * [GitHub: Part 0](#GitHub:-Part-1)
+    * [Activity 0: Securing your GitHub account](#Activity-1:-Securing-your-GitHub-account)
     * ["Cloning" a repository](#"Cloning"-a-repository)
 * [Wrap-up](#wrap-up)
-  * [GitHub: Part 2](#GitHub-Part-2)
+  * [GatorGrader]
+  * [GitHub: Part 1](#GitHub:-Part-2)
     * ["Committing" a repository](#"Committing"-a-repository)
 
 ## Overview
@@ -84,7 +85,9 @@ Click the images below the headers to launch videos.
 
 ### Worksheets and activities
 
-* [Week 00 - Worksheet 1 - Securing your GitHub account](worksheets/Week%2000%20-%20Worksheet%201%20-%20Securing%20your%20GitHub%20account.ipynb)
+* [Week 00 - Worksheet 0 - Securing your GitHub account](worksheets/Week%2000%20-%20Worksheet%201%20-%20Securing%20your%20GitHub%20account.ipynb)
+* [Week 00 - Worksheet 1 - "Cloning" a repository](worksheets/Week%2000%20-%20Worksheet%201%20-%20"Cloning"%20a%20repository.ipynb)
+* [Week 00 - Worksheet 2 - Terminal commands](worksheets/Week%2000%20-%20Worksheet%202%20-%20Terminal%20commands.ipynb)
 
 
 ### Lab
@@ -163,19 +166,21 @@ The quasi portmanteau "GitHub" is really what it says: a hub for `git` repositor
 
 One of GitHub's services is something called GitHub Classroom -- a tool that allows me to create assignments, give them to you, and enables you to create your own complete copy of them in a [repository](#"Repositories").
 
-### Activity 1: Securing your GitHub account
+### Activity 0: Securing your GitHub account
 
-* [Week 00 - Worksheet 1 - Securing your GitHub account](worksheets/Week%2000%20-%20Worksheet%201%20-%20Securing%20your%20GitHub%20account.ipynb)
+* [Week 00 - Worksheet 0 - Securing your GitHub account](worksheets/Week%2000%20-%20Worksheet%201%20-%20Securing%20your%20GitHub%20account.ipynb)
 
-### Activity 2: "Cloning" a repository
+### Activity 1: "Cloning" a repository
 
-* []
+* [Week 00 - Worksheet 1 - "Cloning" a repository](worksheets/Week%2000%20-%20Worksheet%201%20-%20"Cloning"%20a%20repository.ipynb)
 
 ## Wrap-up
 
 ---
 
-### GitHub: Part 2
+### GatorGrader
+
+### GitHub: Part 1
 
 #### Who are you?
 
