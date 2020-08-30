@@ -1,37 +1,49 @@
 # CMPSC 100: Fall 2020, Week 00
 
-[![Status](workflows/GatorGrader/badge.svg)](https://github.com/allegheny-college-sandbox/cmpsc-100-fall-2020-week-00-configuration/actions)
+* Distributed: 31 August, 2020
+* Due: 3 September, 2020
+
+## Assignment status
+
+[![Status](https://github.com/allegheny-college-sandbox/cmpsc-100-fall-2020-week-00-configuration/workflows/GatorGrader/badge.svg)](https://github.com/allegheny-college-sandbox/cmpsc-100-fall-2020-week-00-configuration/actions)
 
 ## Table of contents
 
+---
+
+For those who just want to get to work, consult the `Instructional Materials` section. However, for folks who want to walk through activites with explanations, some context or history, and general folderol/frivolity, start at [Setup](#Setup).
+
 * [Overview](#Overview)
-* [Setup](#Setup)
-  * [GitHub: Part 1](#GitHub-Part-1)
-    * ["Cloning" a repository](#"Cloning"-a-repository)
 * [Instructional materials](#instructional-materials)
   * [Media](#media)
   * [Worksheets and activities](#worksheets-and-activities)
   * [Lab](#lab)
+* [Setup](#Setup)
+  * [The "terminal"](#The-"terminal")
+    * [ What is a "terminal"?](#What-is-a-"terminal"?)
+    * [Using our terminal](#Using-our-terminal)
+  * [GitHub: Part 1](#GitHub-Part-1)
+    * [Activity 1: Securing your GitHub account](#Activity-1:-Securing-your-GitHub-account)
+    * ["Cloning" a repository](#"Cloning"-a-repository)
 * [Wrap-up](#wrap-up)
   * [GitHub: Part 2](#GitHub-Part-2)
     * ["Committing" a repository](#"Committing"-a-repository)
 
 ## Overview
 
+---
+
 This week, we explore setting up the tools, technologies, and platforms that will guide our work this semester. These include:
 
 * The "terminal"
-  * Why do we use a terminal?
-  * Using our terminal
 * GitHub
-  * What is a "repository"?
   * "Cloning" a repository
   * "Committing" a repository
 * JupyterLab
 * Markdown
 * GatorGrader
 
-Follow the links below to access instructional materials for the week. Each `*.ipynb` file is a Jupyter notebook which contains discussion, instruction, and activities -- some meant for use during class video sessions, others to be complete on your own. Simply double-click on it in the file tree to the right to open it in a new tab.
+Follow the links below to access instructional materials for the week. Each `.ipynb` file is a `Jupyter notebook` (more on this later) which contains discussion, instruction, and activities -- some meant for use during class video sessions, others to be complete on your own. Simply double-click on it in the file tree to the right to open it in a new tab.
 
 ### Before we start
 
@@ -43,11 +55,61 @@ I give you my final prefatory note about assistance: **please do not hesitate to
 
 > [h]istorically, students who are successful in my courses visit and discuss course concepts with the instructor and Technical Leaders early and often.
 
+True, that.
+
+## Instructional materials
+
+---
+
+### Media
+
+Click the images below the headers to launch videos.
+
+#### "Cloning" / "Committing" repositories
+
+[Video]()
+
+
+#### SSH keys
+
+[![YouTube thumbnail](https://i3.ytimg.com/vi/qEPjUGQFmzQ/hqdefault.jpg)](https://www.youtube.com/watch?v=qEPjUGQFmzQ)
+
+#### Terminal commands
+
+[Video]()
+
+#### Markdown
+
+[![YouTube thumbnail](https://i3.ytimg.com/vi/s-oSuHFVnR4/hqdefault.jpg)](https://www.youtube.com/watch?v=s-oSuHFVnR4)
+
+### Worksheets and activities
+
+* [Week 00 - Worksheet 1 - Securing your GitHub account](worksheets/Week%2000%20-%20Worksheet%201%20-%20Securing%20your%20GitHub%20account.ipynb)
+
+
+### Lab
+
+#### _The Maltese Python_
+
+![It's just a MacGuffin!](https://cs.allegheny.edu/sites/dluman/cmpsc100/cmpsc-100-maltese-python.png)
+
+> My way of learning is to heave a wild and unpredictable monkey-wrench into the machinery.
+>
+> Dashiell Hammett, _The Maltese Falcon_
+
+In 2020 a professor attempted to boggle their students' minds by sending them a game in which they hid a Golden Python whose scales were conjured from digital text—an enterprising computer system seized this priceless token and the fate of the Maltese Python remains a mystery to this day...
+
+It is hidden somewhere in the `/mansion`, but it is up to _you_ to find and `claim` it.
+
+[Lab: _The Maltese Python_](lab/CMPSC%20100%20-%20Week%2000%20-%20Lab%20-%20The%20Maltese%20Python.ipynb)
+
 ## The "terminal"
 
-> [f]rom the mid 1970's to the mid 1980's, most people used real text-terminals to communicate with large computers....They consisted only of a screen, keyboard, and only enough memory to store a screenfull or so of text (a few kilobytes). Users typed in programs, ran programs, wrote documents, issued printing commands, etc. A cable connected the terminal to the computer (often indirectly). It was called a terminal since it was located at the terminal end of this cable.
+---
 
-David S. Lawyer, [1.7 What is a Text-Terminal?](https://linux.die.net/HOWTO/Text-Terminal-HOWTO-1.html#ss1.7)
+> [f]rom the mid 1970's to the mid 1980's, most people used real text-terminals to communicate with large computers....They consisted only of a screen, keyboard, and only enough memory to store a screenfull or so of text (a few kilobytes). Users typed in programs, ran programs, wrote documents, issued printing commands, etc. A cable connected the terminal to the computer (often indirectly). It was called a terminal since it was located at the terminal end of this cable.
+>
+> David S. Lawyer, [1.7 What is a Text-Terminal?](https://linux.die.net/HOWTO/Text-Terminal-HOWTO-1.html#ss1.7)
 
 ### What is a "terminal"?
 
@@ -68,13 +130,22 @@ This will open a new tab for an active terminal.
 
 #### Launcher tab
 
+<div class="alert alert-block alert-warning">
+  It's possible that you've closed your <b>Launcher</b> tab. In that case:
+    <ul>
+        <li>you can either launch the terminal from the <b>File</b> menu</li> 
+        <li>or create a new <b>Launcher</b> from the same place</li>
+    </ul>
+</div>
+
 * Locate the `Launcher` tab at the top of this window
-  * It's possible that you've closed your `Launcher` tab; in that case, you can either launch the terminal from the `File` menu, or create a new `Launcher` from the same place
 * Under the `Other` heading, click the `Terminal` tile
 
 This will open a new tab for an active terminal.
 
-## GitHub
+## GitHub: Part 1
+
+---
 
 GitHub is the platform that we're going to use to distribute and store our code.
 
@@ -82,62 +153,40 @@ GitHub is the platform that we're going to use to distribute and store our code.
 
 Simply put, a "repository" is a collection of files and folders from a "snapshot" taken at a given point in time. This text is contained in such a repository. What's even better: repositories "remember" previous versions of themselves. In fact, you can _always_ go back and get a previous "snapshot".
 
-We use a program called `git` to take and manage different versions of our files. `git` is referred to as a `Version Control System (VCS)`. 
+We use a program called `git` to take and manage different versions of our files. `git` is referred to as a `Version Control System (VCS)`.
 
 #### What is a "GitHub", then?
 
 The quasi portmanteau "GitHub" is really what it says: a hub for `git` repositories. There are many other places on the internet that provide the service that GitHub does, but it's the largest such service out there.
 
-(It has that sweet Microsoft money, now.)
+(It has that sweet Microsoft money now.)
 
-### Securing your GitHub account
+One of GitHub's services is something called GitHub Classroom -- a tool that allows me to create assignments, give them to you, and enables you to create your own complete copy of them in a [repository](#"Repositories").
 
-This may seem like an extra step -- and it is. But, it's an important one.
+### Activity 1: Securing your GitHub account
 
-Now that you have some familiarity with a terminal, I'm going outsource explaining how to generate a key to, er..., myself.
+* [Week 00 - Worksheet 1 - Securing your GitHub account](worksheets/Week%2000%20-%20Worksheet%201%20-%20Securing%20your%20GitHub%20account.ipynb)
 
-[![]()]()
+### Activity 2: "Cloning" a repository
 
-### "Cloning" a repository
-
-In GitHub lingo, "cloning" a repository is the way that we, effectively, download the content. (As you've discovered, this paraphrase is pretty inaccurate, as "repositories" are much more than just downloads.)
-
-To clone _this_ repository:
-
-* Open a [terminal](#Using-our-terminal), and 
-
-## Instructional materials
-
-### Media
-
-```
-Media
-```
-
-### Worksheets and activities
-
-* [Worksheet: The terminal](worksheets/1%20-%20CMPSC%20100%20-%20Week%2000%20-%20Worksheet%20-%20Terminal%20commands.ipynb)
-* [Worksheet: Markdown](worksheets/2%20-%20CMPSC%20100%20-%20Week%2000%20-%20Worksheet%20-%20Markdown.ipynb)
-
-### Lab
-
-#### _The Maltese Python_
-
-![It's just a MacGuffin!](https://cs.allegheny.edu/sites/dluman/cmpsc100/cmpsc-100-maltese-python.png)
-
-> My way of learning is to heave a wild and unpredictable monkey-wrench into the machinery.
-
-Dashiell Hammet, _The Maltese Falcon_
-
-In 2020 a professor attempted to boggle their students' minds by sending them a game in which they hid a Golden Python whose scales were conjured from digital text—an enterprising computer system seized this priceless token and the fate of the Maltese Python remains a mystery to this day...
-
-It is hidden somewhere in the `/mansion`, but it is up to _you_ to find and `claim` it.
-
-[Lab: _The Maltese Python_](lab/CMPSC%20100%20-%20Week%2000%20-%20Lab%20-%20The%20Maltese%20Python.ipynb)
+* []
 
 ## Wrap-up
 
+---
+
 ### GitHub: Part 2
+
+#### Who are you?
+
+GitHub will let you `clone` repositories without really knowing who you are. To assign your name to the work you've done, though, is a different story.
+
+```
+git config --global user.email "YOUR ALLEGHENY EMAIL"
+```
+```
+git config --global user.name "YOUR NAME"
+```
 
 #### "Committing" a repository
 
@@ -145,6 +194,6 @@ It is hidden somewhere in the `/mansion`, but it is up to _you_ to find and `cla
 
 <div class="alert alert-block alert-danger">
     <p><strong>While we may use this server to store code, <u>you</u> are responsible for using GitHub as your main backup.</strong></p>
-    <p>While I back this server up on a regular basis, I cannot guarantee that I'll the ability to restory up-to-the-minute data for your work.</p>
+    <p>While I back this server up on a regular basis, I cannot guarantee that I'll have the ability to restore up-to-the-minute data for your work.</p>
     <p>Remember: to err is human; to back up your work is divine.</p>
 </div>
