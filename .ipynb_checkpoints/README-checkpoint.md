@@ -14,22 +14,27 @@
 For those who just want to get to work, consult the `Instructional Materials` section. However, for folks who want to walk through activites with explanations, some context or history, and general folderol/frivolity, start at [Setup](#Setup).
 
 * [Overview](#Overview)
-* [Instructional materials](#instructional-materials)
-  * [Media](#media)
-  * [Worksheets and activities](#worksheets-and-activities)
-  * [Lab](#lab)
+* [Instructional materials](#Instructional-materials)
+  * [Media](#Media)
+  * [Worksheets and activities](#Worksheets-and-activities)
+  * [Lab](#Lab)
 * [Setup](#Setup)
   * [The "terminal"](#The-"terminal")
     * [What is a "terminal"?](#What-is-a-"terminal"?)
     * [Using our terminal](#Using-our-terminal)
   * [GitHub: Part 0](#GitHub:-Part-1)
-    * [Activity 0: Securing your GitHub account](#Activity-1:-Securing-your-GitHub-account)
-    * ["Cloning" a repository](#"Cloning"-a-repository)
+    * [Activity 0: Securing your GitHub account](#Activity-0:-Securing-your-GitHub-account)
+    * [Activity 1: "Cloning" a repository](#Activity-1:-"Cloning"-a-repository)
+  * [The terminal revisited](#The-terminal-revisited)
+    * [Activity 2: Terminal commands](#Activity-2:-Terminal-commands)
+  * [Markdown]
+    * [Activity 3: Basic markdown](#Activity-3:-Basic-markdown)
+* [Lab activity: _The Maltese Python_](#Lab-activity:-The-Maltese-Python)
 * [Wrap-up](#wrap-up)
   * [GatorGrader]
-  * [GitHub: Part 1](#GitHub:-Part-2)
-    * ["Committing" a repository](#"Committing"-a-repository)
-
+    * [Activity 4: Checking your work](#Activity-4:-Checking-your-work)
+  * [GitHub: Part 1](#GitHub:-Part-1)
+    * [Activity 5: "Committing" to a repository](#Activity-2:-"Committing"-to-a-repository)
 ## Overview
 
 ---
@@ -88,6 +93,9 @@ Click the images below the headers to launch videos.
 * [Week 00 - Worksheet 0 - Securing your GitHub account](worksheets/Week%2000%20-%20Worksheet%201%20-%20Securing%20your%20GitHub%20account.ipynb)
 * [Week 00 - Worksheet 1 - "Cloning" a repository](worksheets/Week%2000%20-%20Worksheet%201%20-%20"Cloning"%20a%20repository.ipynb)
 * [Week 00 - Worksheet 2 - Terminal commands](worksheets/Week%2000%20-%20Worksheet%202%20-%20Terminal%20commands.ipynb)
+* [Week 00 - Worksheet 3 - "Committing" to a repository](worksheets/Week%2000%20-%20Worksheet%203%20-%20"Committing"%20to%20a%20repository.ipynb)
+* [Week 00 - Worksheet 4 - Markdown]()
+* [Week 00 - Worksheet 5 - GatorGrader]()
 
 
 ### Lab
@@ -104,7 +112,7 @@ In 2020 a professor attempted to boggle their students' minds by sending them a 
 
 It is hidden somewhere in the `/mansion`, but it is up to _you_ to find and `claim` it.
 
-[Lab: _The Maltese Python_](lab/CMPSC%20100%20-%20Week%2000%20-%20Lab%20-%20The%20Maltese%20Python.ipynb)
+* [Lab: _The Maltese Python_](lab/CMPSC%20100%20-%20Week%2000%20-%20Lab%20-%20The%20Maltese%20Python.ipynb)
 
 ## The "terminal"
 
@@ -174,26 +182,52 @@ One of GitHub's services is something called GitHub Classroom -- a tool that all
 
 * [Week 00 - Worksheet 1 - "Cloning" a repository](worksheets/Week%2000%20-%20Worksheet%201%20-%20"Cloning"%20a%20repository.ipynb)
 
-## Wrap-up
+## The terminal revisited
 
 ---
 
-### GatorGrader
+### Basic commands
 
-### GitHub: Part 1
+In this course, you may learn some more handy terminal commands. However, we generally can get by with the following three (3):
 
-#### Who are you?
+* `cd`
+* `ls`
+* `pwd`
 
-GitHub will let you `clone` repositories without really knowing who you are. To assign your name to the work you've done, though, is a different story.
+#### `cd`
 
-```
-git config --global user.email "YOUR ALLEGHENY EMAIL"
-```
-```
-git config --global user.name "YOUR NAME"
-```
+* Stands for **c**hange **d**irectory
+* Allows users to move "up" and "down" a file "tree"
+  * Think: going from one place to another
+* Easy way to remember: `I want to go to...`
 
-#### "Committing" a repository
+#### `ls`
+
+* Stands for **l**i**s**t
+* Lists the contents of a directory
+* Easy way to remember: `I want to look around.`
+
+#### `pwd`
+
+* Stands for **p**ath to **w**orking **d**irectory
+* Shows the directory you're currently in
+* Easy way to remember: `Where am I?`
+
+### Activity 2: Terminal commands
+
+The following worksheet provides some guided practice with these basic terminal commands.
+
+* [Week 00 - Worksheet 2 - Terminal commands](worksheets/Week%2000%20-%20Worksheet%202%20-%20Terminal%20commands.ipynb)
+
+## Lab activity: _The Maltese Python_
+
+---
+
+More advanced practice with the terminal and Markdown.
+
+* See [the lab](#Lab) under [instructional materials](#Instructional-materials)
+
+## Wrap-up
 
 #### A strong warning
 
